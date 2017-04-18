@@ -59,16 +59,14 @@
     ================================================== -->
     <div id="mainCarousel" class="carousel slide carousel-fade" data-ride="carousel">
       <div class="carousel-inner" role="listbox">
-        <div class="item active">
-          <img class="first-slide" src="images/carousel1.png" alt="Building Picture">
+        <div class="item img1 active">
+          <!-- <img class="first-slide" src="images/carousel1.png" alt="Building Picture"> -->
         </div>
-        <div class="item">
-          <img class="second-slide" src="images/carousel2.png" alt="Building Picture">
-          <div class="container">
-          </div>
+        <div class="item img2">
+          <!-- <img class="second-slide" src="images/carousel2.png" alt="Building Picture"> -->
         </div>
-        <div class="item">
-          <img class="third-slide" src="images/carousel3.png" alt="Building Picture">
+        <div class="item img3">
+          <!-- <img class="third-slide" src="images/carousel3.png" alt="Building Picture"> -->
         </div>
       </div>
     </div><!-- /.carousel -->
