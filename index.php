@@ -72,13 +72,11 @@
     </div><!-- /.carousel -->
 
 
-    <!-- Marketing messaging and featurettes
+    <!-- Marketing messaging and featurettes below
     ================================================== -->
-    <!-- Wrap the rest of the page in another container to center all the content. -->
 
     <div class="container marketing">
 
-      <!-- Three columns of text below the carousel -->
       <div class="row">
         <div class="col-lg-4">
           <img class="img-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
@@ -107,11 +105,11 @@
 
       <div class="row featurette">
         <div class="col-md-7">
-          <h2 class="featurette-heading">First featurette heading. <span class="text-muted">It'll blow your mind.</span></h2>
-          <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+          <h2 class="featurette-heading">Rustic &amp; Charming </h2>
+          <p class="lead">Available year round with over 4,000 useable square feet. Featuring a large woden bar with a side office space for preperations or bridal party changing.</p>
         </div>
         <div class="col-md-5">
-          <img class="featurette-image img-responsive center-block" data-src="holder.js/500x500/auto" alt="Generic placeholder image" width="500" height="500">
+          <img class="featurette-image img-responsive center-block" src="images/500x500-rustic.png" alt="rustic venue image" width="500" height="500">
         </div>
       </div>
 
@@ -119,11 +117,11 @@
 
       <div class="row featurette">
         <div class="col-md-7 col-md-push-5">
-          <h2 class="featurette-heading">Oh yeah, it's that good. <span class="text-muted">See for yourself.</span></h2>
-          <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+          <h2 class="featurette-heading">Make your event memorable. <span class="text-muted">Only at Honey Hill&trade;</span></h2>
+          <p class="lead">Our venue fits perfectly for weddings, receptions, birthday parties, family reunions, holiday gatherings, conferences and corporte events.</p>
         </div>
         <div class="col-md-5 col-md-pull-7">
-          <img class="featurette-image img-responsive center-block" data-src="holder.js/500x500/auto" alt="Generic placeholder image" width="500" height="500">
+          <img class="featurette-image img-responsive center-block" src="images/500x500-memories.png" alt="wedding scene" width="500" height="500">
         </div>
       </div>
 
@@ -131,23 +129,38 @@
 
       <div class="row featurette">
         <div class="col-md-7">
-          <h2 class="featurette-heading">And lastly, this one. <span class="text-muted">Checkmate.</span></h2>
-          <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+          <h2 class="featurette-heading">Conveniently Located</h2>
+          <p class="lead">Just 45 minutes south of the Des Moines metro area, right off of Interstate 35. Come visit us at 1400 West Clay Street, Osceola, IA 50213.</p>
         </div>
         <div class="col-md-5">
-          <img class="featurette-image img-responsive center-block" data-src="holder.js/500x500/auto" alt="Generic placeholder image" width="500" height="500">
+          <img class="featurette-image img-responsive center-block" data-src="holder.js/500x500/auto" alt="Google Map" width="500" height="500">
         </div>
       </div>
 
       <hr class="featurette-divider">
 
+
+      <div class="row featurette">
+        <div class="col-md-7 col-md-push-5">
+          <h2 class="featurette-heading">Honey Hill&trade; offers more.</h2>
+          <p class="lead">Included with your rental fees are access to 60-inch round tables, basic folding chairs, and 8-foot rectangular tables. Podium, microphone, speakers and a projector are also available for a small fee.</p>
+          <p class="text-center"><a href="Honey_Hill_Rental_Agreement.pdf">View Our Rental Agreement &amp; Pricing</a></p>
+        </div>
+        <div class="col-md-5 col-md-pull-7">
+          <img class="featurette-image img-responsive center-block" src="images/500x500-more.png" alt="Wedding table" width="500" height="500">
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+      
       <!-- /END THE FEATURETTES -->
 
 
       <!-- FOOTER -->
       <footer>
         <p class="pull-right"><a href="#">Back to top</a></p>
-        <p>&copy; 2016 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+        <p>&copy; 2017 Honey Hill, Inc.</p>
+        <p class="text-center tye">Website by <a href="http://www.tyecampbell.com">Tye Campbell</a></p>
       </footer>
 
     </div><!-- /.container -->

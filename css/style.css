@@ -9,6 +9,8 @@
 body {
   padding-bottom: 40px;
   color: #5a5a5a;
+  background-image: url(../images/honeybackground.png);
+  background-repeat: repeat-x repeat-y;
 }
 
 
@@ -96,10 +98,6 @@ body {
   margin-bottom: 60px;
 }*/
 
-/*.carousel-caption {
-  z-index: 10;
-}*/
-
 .carousel .item {
   height: 500px;
   background-color: #777;
@@ -128,15 +126,15 @@ body {
 }
 
 .img1 { 
-    background: url(../images/carousel1.png) no-repeat center center;
+    background: url(../images/carousel3.png) no-repeat center center;
 }
 
 .img2 { 
-    background: url(../images/carousel2.png) no-repeat center center;
+    background: url(../images/carousel4.png) no-repeat center center;
 }
 
 .img3 { 
-    background: url(../images/carousel3.png) no-repeat center center;
+    background: url(../images/carousel5.png) no-repeat center center;
 }
 
 /*
@@ -223,6 +221,9 @@ inspired from http://codepen.io/Rowno/pen/Afykb
   letter-spacing: -1px;
 }
 
+hr { 
+  border-top: 1px solid #000;
+}
 
 /* RESPONSIVE CSS
 -------------------------------------------------- */
@@ -267,4 +268,13 @@ inspired from http://codepen.io/Rowno/pen/Afykb
   .featurette-heading {
     margin-top: 120px;
   }
+}
+
+.tye { 
+  font-size: .8em;
+  color: white;
+}
+
+.tye a {
+  color: white;
 }
