@@ -80,19 +80,19 @@
       <div class="row">
         <div class="col-lg-4">
           <img class="img-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
-          <h2>Heading</h2>
+          <h2>Weddings</h2>
           <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
           <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
         </div><!-- /.col-lg-4 -->
         <div class="col-lg-4">
           <img class="img-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
-          <h2>Heading</h2>
+          <h2>Events</h2>
           <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
           <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
         </div><!-- /.col-lg-4 -->
         <div class="col-lg-4">
           <img class="img-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
-          <h2>Heading</h2>
+          <h2>Celebrations</h2>
           <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
           <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
         </div><!-- /.col-lg-4 -->
@@ -103,7 +103,7 @@
 
       <hr class="featurette-divider">
 
-      <div class="row featurette">
+      <div id="about" class="row featurette">
         <div class="col-md-7">
           <h2 class="featurette-heading">Rustic &amp; Charming </h2>
           <p class="lead">Available year round with over 4,000 useable square feet. Featuring a large woden bar with a side office space for preperations or bridal party changing.</p>
@@ -127,20 +127,20 @@
 
       <hr class="featurette-divider">
 
-      <div class="row featurette">
+      <div id="location" class="row featurette">
         <div class="col-md-7">
           <h2 class="featurette-heading">Conveniently Located</h2>
-          <p class="lead">Just 45 minutes south of the Des Moines metro area, right off of Interstate 35. Come visit us at 1400 West Clay Street, Osceola, IA 50213.</p>
+          <p class="lead">Just 45 minutes south of the Des Moines metro area, right off of Interstate 35. Come visit us at <a href="https://www.google.com/maps/place/1400+W+Clay+St,+Osceola,+IA+50213/@41.037955,-93.7810656,17z/data=!3m1!4b1!4m5!3m4!1s0x87ebe2e761b5c9c9:0xc6ac7880fdb960e4!8m2!3d41.037955!4d-93.7788769">1400 West Clay Street, Osceola, IA 50213</a>.</p>
         </div>
         <div class="col-md-5">
-          <img class="featurette-image img-responsive center-block" data-src="holder.js/500x500/auto" alt="Google Map" width="500" height="500">
+          <img class="featurette-image img-responsive center-block" src="images/500x500-map.png" alt="Google Map" width="500" height="500">
         </div>
       </div>
 
       <hr class="featurette-divider">
 
 
-      <div class="row featurette">
+      <div id="pricing" class="row featurette">
         <div class="col-md-7 col-md-push-5">
           <h2 class="featurette-heading">Honey Hill&trade; offers more.</h2>
           <p class="lead">Included with your rental fees are access to 60-inch round tables, basic folding chairs, and 8-foot rectangular tables. Podium, microphone, speakers and a projector are also available for a small fee.</p>
