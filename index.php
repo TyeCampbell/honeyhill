@@ -7,7 +7,23 @@
  
     <meta name="description" content="">
     <meta name="author" content="">
-    <link rel="icon" href="../../favicon.ico">
+    <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+	<link rel="manifest" href="/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
 
     <title>Welcome to Honey Hill Events - Osceola, Iowa</title>
 
@@ -17,8 +33,13 @@
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <link href="css/ie10-viewport-bug-workaround.css" rel="stylesheet">
 
-    <!-- Custom styles for this template -->
+    <!-- Custom styles -->
     <link  href="css/style.css" rel="stylesheet">
+
+    <!-- Custom fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Poiret+One|Playfair+Display+SC|Trirong" rel="stylesheet">
+
+
 
   </head>
 
@@ -106,7 +127,7 @@
       <div id="about" class="row featurette">
         <div class="col-md-7">
           <h2 class="featurette-heading">Rustic &amp; Charming </h2>
-          <p class="lead">Available year round with over 4,000 useable square feet. Featuring a large woden bar with a side office space for preperations or bridal party changing.</p>
+          <p class="lead">Available year round with over 4,000 useable square feet. Featuring a large woden bar with a side office space for preparations or bridal party changing.</p>
         </div>
         <div class="col-md-5">
           <img class="featurette-image img-responsive center-block" src="images/500x500-rustic.png" alt="rustic venue image" width="500" height="500">
@@ -152,6 +173,48 @@
       </div>
 
       <hr class="featurette-divider">
+
+      <div id="contact" class="row featurette">
+        <div class="col-md-7">
+        	<h2 class="featurette-heading">Contact Us</h2>
+        	<form name="contactus" id="contactus" onsubmit="submitForm(); return false"> 
+        
+		        <div class="form-group has-feedback">
+		          <label for="fname" class="control-label">Name:</label>
+		          <input type="text" class="form-control has-error" id="fname">
+		          <span class="glyphicon form-control-feedback"></span>
+		          <span class="validate-redlight"></span>
+		        </div>
+
+		        <div class="form-group has-feedback">
+		          <label for="email">Email Address:</label>
+		          <input type="email" class="form-control" id="email">
+		          <span class="glyphicon form-control-feedback"></span> 
+		          <span class="validate-redlight"></span>         
+		        </div>
+
+		        <div class="form-group has-feedback">
+		          <label for="message">Message:</label>
+		          <textarea class="form-control" rows="8" id="message"></textarea>
+		          <span class="glyphicon form-control-feedback"></span> 
+		          <span class="validate-redlight"></span>         
+		        </div>
+
+		        <!-- Do not delete below -->
+
+					<button id="sendmessage" type="submit" class="submit buttoncolor btn btn-lg">Send Message</button>
+
+    		</form>
+
+        </div>
+
+        <div class="col-md-5">
+          <img class="featurette-image img-responsive center-block" src="images/flowerinvite.png" alt="Google Map" height="300">
+        </div>
+
+      </div>
+
+      <hr class="featurette-divider">      
       
       <!-- /END THE FEATURETTES -->
 
@@ -159,8 +222,8 @@
       <!-- FOOTER -->
       <footer>
         <p class="pull-right"><a href="#">Back to top</a></p>
-        <p>&copy; 2017 Honey Hill, Inc.</p>
-        <p class="text-center tye">Website by <a href="http://www.tyecampbell.com">Tye Campbell</a></p>
+        <p>&copy; <span id="year"></span> Honey Hill, Inc.</p>
+        <p class="text-center tye"><a href="http://www.tyecampbell.com">Site by Tye</a></p>
       </footer>
 
     </div><!-- /.container -->
