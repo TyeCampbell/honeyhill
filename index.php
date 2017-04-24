@@ -7,23 +7,27 @@
  
     <meta name="description" content="">
     <meta name="author" content="">
-    <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
-	<link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
-	<link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
-	<link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
-	<link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
-	<link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
-	<link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
-	<link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
-	<link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
-	<link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
-	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-	<link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
-	<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-	<link rel="manifest" href="/manifest.json">
-	<meta name="msapplication-TileColor" content="#ffffff">
-	<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
-	<meta name="theme-color" content="#ffffff">
+	<link rel="apple-touch-icon-precomposed" sizes="57x57" href="favicons/apple-touch-icon-57x57.png" />
+	<link rel="apple-touch-icon-precomposed" sizes="114x114" href="favicons/apple-touch-icon-114x114.png" />
+	<link rel="apple-touch-icon-precomposed" sizes="72x72" href="favicons/apple-touch-icon-72x72.png" />
+	<link rel="apple-touch-icon-precomposed" sizes="144x144" href="favicons/apple-touch-icon-144x144.png" />
+	<link rel="apple-touch-icon-precomposed" sizes="60x60" href="favicons/apple-touch-icon-60x60.png" />
+	<link rel="apple-touch-icon-precomposed" sizes="120x120" href="favicons/apple-touch-icon-120x120.png" />
+	<link rel="apple-touch-icon-precomposed" sizes="76x76" href="favicons/apple-touch-icon-76x76.png" />
+	<link rel="apple-touch-icon-precomposed" sizes="152x152" href="favicons/apple-touch-icon-152x152.png" />
+	<link rel="icon" type="image/png" href="favicon-196x196.png" sizes="196x196" />
+	<link rel="icon" type="image/png" href="favicon-96x96.png" sizes="96x96" />
+	<link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32" />
+	<link rel="icon" type="image/png" href="favicon-16x16.png" sizes="16x16" />
+	<link rel="icon" type="image/png" href="favicon-128.png" sizes="128x128" />
+	<meta name="application-name" content="&nbsp;"/>
+	<meta name="msapplication-TileColor" content="#FFFFFF" />
+	<meta name="msapplication-TileImage" content="mstile-144x144.png" />
+	<meta name="msapplication-square70x70logo" content="mstile-70x70.png" />
+	<meta name="msapplication-square150x150logo" content="mstile-150x150.png" />
+	<meta name="msapplication-wide310x150logo" content="mstile-310x150.png" />
+	<meta name="msapplication-square310x310logo" content="mstile-310x310.png" />
+
 
     <title>Welcome to Honey Hill Events - Osceola, Iowa</title>
 
@@ -121,7 +125,7 @@
           <p class="lead">Available year round with over 4,000 useable square feet. Featuring a large woden bar with a side office space for preparations or bridal party changing.</p>
         </div>
         <div class="col-md-5">
-          <img class="featurette-image img-responsive center-block" src="images/500x500-rustic.png" alt="rustic venue image" width="500" height="500">
+          <img class="featurette-image img-responsive center-block" src="images/featurettes-rustic.png" alt="rustic venue image" width="500" height="500">
         </div>
       </div>
 
@@ -133,7 +137,7 @@
           <p class="lead">Our venue fits perfectly for weddings, receptions, birthday parties, family reunions, holiday gatherings, conferences and corporte events.</p>
         </div>
         <div class="col-md-5 col-md-pull-7">
-          <img class="featurette-image img-responsive center-block" src="images/500x500-memories.png" alt="wedding scene" width="500" height="500">
+          <img class="featurette-image img-responsive center-block" src="images/featurettes-memories.png" alt="wedding scene" width="500" height="500">
         </div>
       </div>
 
@@ -142,10 +146,11 @@
       <div id="location" class="row featurette">
         <div class="col-md-7">
           <h2 class="featurette-heading">Conveniently Located</h2>
-          <p class="lead">Just 45 minutes south of the Des Moines metro area, right off of Interstate 35. Come visit us at <a href="https://www.google.com/maps/place/1400+W+Clay+St,+Osceola,+IA+50213/@41.037955,-93.7810656,17z/data=!3m1!4b1!4m5!3m4!1s0x87ebe2e761b5c9c9:0xc6ac7880fdb960e4!8m2!3d41.037955!4d-93.7788769">1400 West Clay Street, Osceola, IA 50213</a>.</p>
+          <p class="lead">Just 45 minutes south of the Des Moines metro area, right off of Interstate 35. Come visit us! <address class="text-center address">Honey Hill Events Center<br> 1400 West Clay Street <br> Osceola, IA 50213</address></p>
         </div>
         <div class="col-md-5">
-          <img class="featurette-image img-responsive center-block" src="images/500x500-map.png" alt="Google Map" width="500" height="500">
+          <!-- <img class="featurette-image img-responsive center-block" src="images/500x500-map.png" alt="Google Map" width="500" height="500"> -->
+	         <div id="map" class="center-block"></div>
         </div>
       </div>
 
@@ -159,7 +164,7 @@
           <p class="text-center"><a href="Honey_Hill_Rental_Agreement.pdf">View Our Rental Agreement &amp; Pricing</a></p>
         </div>
         <div class="col-md-5 col-md-pull-7">
-          <img class="featurette-image img-responsive center-block" src="images/500x500-more.png" alt="Wedding table" width="500" height="500">
+          <img class="featurette-image img-responsive center-block" src="images/featurettes-more.png" alt="Wedding table" width="500" height="500">
         </div>
       </div>
 
@@ -213,7 +218,7 @@
       <!-- FOOTER -->
       <footer>
         <p class="pull-right"><a href="#">Back to top</a></p>
-        <p>&copy; <span id="year"></span> Honey Hill, Inc.</p>
+      	<p>Owners: <br>Rob Taylor &amp; Dr. Christi Taylor <br> &copy; <span id="year"></span> Honey Hill, Inc.</p>
         <p class="text-center tye"><a href="http://www.tyecampbell.com">Site by Tye</a></p>
       </footer>
 
@@ -227,6 +232,9 @@
     <script src="js/bootstrap.min.js"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="js/ie10-viewport-bug-workaround.js"></script>
+    <script async defer
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBq6TrLCbuUYe_sSKMsbNrwc_T3EeIv9_w&callback=initMap">
+    </script>
     <script type="text/javascript" src="js/script.js"></script>
   </body>
 </html>

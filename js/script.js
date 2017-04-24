@@ -157,3 +157,17 @@ function sendForm() {
 	}
 	ajax.send(formdata);
 }
+
+/* ---------- Google Map API ---------- */
+
+function initMap() {
+        var uluru = {lat: 41.037955, lng: -93.7810656};
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 14,
+          center: uluru
+        });
+        var marker = new google.maps.Marker({
+          position: uluru,
+          map: map
+        });
+      }

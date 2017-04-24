@@ -229,6 +229,14 @@ hr {
   border-top: 1px solid #000;
 }
 
+#map { 
+  height: 430px;
+  width: 428px;
+}
+
+.address {
+  font-size: 1.2em;
+}
 
 /* Contact Us jQuery Valication Error message
 -------------------------------------------------- */
