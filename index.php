@@ -122,7 +122,7 @@
       <div id="about" class="row featurette">
         <div class="col-md-7">
           <h2 class="featurette-heading">Rustic &amp; Charming </h2>
-          <p class="lead">Available year round with over 4,000 useable square feet. Featuring a large woden bar with a side office space for preparations or bridal party changing.</p>
+          <p class="lead">Available year-round with over 4,000 useable square feet. Featuring a large woden bar with a side office space for preparations or bridal party changing.</p>
         </div>
         <div class="col-md-5">
           <img class="featurette-image img-responsive center-block" src="images/featurettes-rustic.png" alt="rustic venue image" width="500" height="500">
@@ -160,7 +160,7 @@
       <div id="pricing" class="row featurette">
         <div class="col-md-7 col-md-push-5">
           <h2 class="featurette-heading">Honey Hill&trade; offers more.</h2>
-          <p class="lead">Included with your rental fees are access to 60-inch round tables, basic folding chairs, and 8-foot rectangular tables. Podium, microphone, speakers and a projector are also available for a small fee.</p>
+          <p class="lead">Included with your rental fees are access to 60-inch round tables, basic folding chairs, and 8-foot rectangular tables. Podium, microphone, speakers and a projector are also available. High-top cocktail tables, table linens, chair covers and wood dance floor are available for a nominal fee.</p>
           <p class="text-center"><a href="Honey_Hill_Rental_Agreement.pdf">View Our Rental Agreement &amp; Pricing</a></p>
         </div>
         <div class="col-md-5 col-md-pull-7">

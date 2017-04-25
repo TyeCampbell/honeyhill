@@ -129,16 +129,34 @@ h1, h2, #navbar {
   background-size: cover;
 }
 
+/* Images for the Carousel 
+-------------------------------------------------- */
+
 .img1 { 
-    background: url(../images/carousel3.png) no-repeat center center;
+    background: url(../images/banner-500x2000-building.png) no-repeat center center;
 }
 
 .img2 { 
-    background: url(../images/carousel4.png) no-repeat center center;
+    background: url(../images/banner-500x2000-honey.png) no-repeat center center;
 }
 
 .img3 { 
-    background: url(../images/carousel5.png) no-repeat center center;
+    background: url(../images/banner-500x2000-wishes.png) no-repeat center center;
+}
+
+@media (max-width: 768px) {
+  /* Images adjust for mobile viewing */
+  .img1 { 
+      background: url(../images/banner-500x768-building.png) no-repeat center center;
+  }
+
+  .img2 { 
+      background: url(../images/banner-500x768-honey.png) no-repeat center center;
+  }
+
+  .img3 { 
+      background: url(../images/banner-500x768-love.png) no-repeat center center;
+  }
 }
 
 /*
