@@ -18,6 +18,12 @@ h1, h2, #navbar {
   font-family: 'Playfair Display SC', serif;
 }
 
+:focus {
+    outline: 0;
+    /* or */
+    outline: none;
+}
+
 /* CUSTOM NAVBAR CSS
 -------------------------------------------------- */
 .logo {
@@ -261,6 +267,13 @@ hr {
 
 .validate-redlight {
   color: #a94442;
+}
+
+/* CONTACT BUTTON COLOR
+-------------------------------------------------- */
+.btn {
+  background-color: ##5a5a5a;
+  color: none;
 }
 
 /* RESPONSIVE CSS

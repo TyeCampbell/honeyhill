@@ -6,13 +6,8 @@
 
 /* ---------- Regular Expressions For Frorm Validations ---------- */
 
-var reProperName = /^([A-Z][A-Za-z]+ )*[A-Z][A-Za-z']+$/;
+var reProperName = /^[a-z ,.'-]+$/i;
 var reEmail = /^(\w+[\-\.])*\w+@(\w+\.)+[A-Za-z]+$/;
-var rePhone = /^(\()?\d{3}(\))?(-|\s)?\d{3}(-|\s)\d{4}$/;
-var reZipCode = /^\d{5}(\-\d{4})?$/;
-//var reUserName = /^[A-Za-z\d]{6,15}$/;
-//var rePassword = /^[A-Za-z\d]{6,8}$/;
-
 
 /* ---------- Contact Us Form ---------- */
 
@@ -23,18 +18,18 @@ $("#fname").blur(function(){
 		$(this).parent().addClass("has-error");
 		$(this).next("span").addClass("glyphicon-remove");
 		$(this).next("span").next().html("Required information.")
-		$("#sendmessage").disabled = true;
+		$("#sendmessage").addClass("disabled");
 
 	} else if (!reProperName.test($(this).val())) {
 		$(this).parent().addClass("has-error");
 		$(this).next("span").addClass("glyphicon-remove");
-		$(this).next("span").next().html("Not a valid proper name.")
-		$("#sendmessage").disabled = true;
+		$(this).next("span").next().html("Not a valid name.")
+		$("#sendmessage").addClass("disabled");
 	} else {
 		$(this).parent().removeClass("has-error");
 		$(this).next("span").removeClass("glyphicon-remove");
 		$(this).next("span").next().html("");
-		$("#sendmessage").disabled = false;
+		$("#sendmessage").removeClass("disabled");
 	};
 });
 
@@ -46,18 +41,18 @@ if ($(this).val() == "") {
 		$(this).parent().addClass("has-error");
 		$(this).next("span").addClass("glyphicon-remove");
 		$(this).next("span").next().html("Email address required.")
-		$("#sendmessage").disabled = true;
+		$("#sendmessage").addClass("disabled");
 
 	} else if (!reEmail.test($(this).val())) {
 		$(this).parent().addClass("has-error");
 		$(this).next("span").addClass("glyphicon-remove");
 		$(this).next("span").next().html("Not a valid email address")
-		$("#sendmessage").disabled = true;
+		$("#sendmessage").addClass("disabled");
 	} else {
 		$(this).parent().removeClass("has-error");
 		$(this).next("span").removeClass("glyphicon-remove");
 		$(this).next("span").next().html("");
-		$("#sendmessage").disabled = false;
+		$("#sendmessage").removeClass("disabled");
 	};
 });
 
@@ -69,22 +64,22 @@ $("#message").blur(function(){
 			$(this).parent().addClass("has-error");
 			$(this).next("span").addClass("glyphicon-remove");
 			$(this).next("span").next().html("Required information.")
-			$("#requestbutton").disabled = true;
+			$("#sendmessage").addClass("disabled");
 		}  else if ($(this).val().length < 5) {
 			$(this).parent().addClass("has-error");
 			$(this).next("span").addClass("glyphicon-remove");
 			$(this).next("span").next().html("More information is required. Keep typing...")
-			$("#requestbutton").disabled = true;
+			$("#sendmessage").addClass("disabled");
 		} else if ($(this).val().length > 1000) {
 			$(this).parent().addClass("has-error");
 			$(this).next("span").addClass("glyphicon-remove");
 			$(this).next("span").next().html("You typed " + $(this).val().length + " characters. Maximum message limit is 1000 characters.")
-			$("#requestbutton").disabled = true;
+			$("#sendmessage").addClass("disabled");
 		} else {
 			$(this).parent().removeClass("has-error");
 			$(this).next("span").removeClass("glyphicon-remove");
 			$(this).next("span").next().html("");
-			$("#requestbutton").disabled = false;
+			$("#sendmessage").removeClass("disabled");
 		};
 });
 
@@ -98,12 +93,12 @@ function submitForm() {
 	function submitValidate(element) {
 		$(element).parent().addClass("has-error");
 		$(element).next("span").addClass("glyphicon-remove");
-		$(element).next("span").next().html("Required information.")
+		$(element).next("span").next().html("Required information.");
 	};
 
-	if ($firstName.val() == "" || $lastName.val() == "" || $email.val() == "" || $message.val() == "") {
+	if ($firstName.val() == "" || $email.val() == "" || $message.val() == "" || $message.val().length < 5) {
 		
-		$("#sendmessage").disabled = true;
+		$("#sendmessage").addClass("disabled");
 
 		if ($firstName.val() == "") {
 			submitValidate($firstName);
@@ -113,7 +108,7 @@ function submitForm() {
 			submitValidate($email);
 		};
 
-		if ($message.val() == "") {
+		if ($message.val() == "" || $message.val().length < 5){
 			submitValidate($message);
 		};				
 	} else {
@@ -125,7 +120,7 @@ function submitForm() {
 
 function sendForm() {
 		
-	$('#sendmessage').disabled = true;
+	$("#sendmessage").addClass("disabled");
 
 	var $firstName = $("#fname");
 	var $email = $("#email");
@@ -146,12 +141,12 @@ function sendForm() {
 				$firstName.val("");
 				$email.val("");
 				$message.val("");
-				$("#sendmessage").disabled = false;		
+				$("#sendmessage").removeClass("disabled");		
 			} else {
 				$('#mymodal').modal({show: true});				
-				$("#statusheader").html("Oops! There was an error...");				
+				$("#statusheader").html("There was an error sending your message. Please try again later.");				
 				$("#status").html(ajax.responseText);
-				$("#sendmessage").disabled = false;
+				$("#sendmessage").removeClass("disabled");
 			}
 		}
 	}
