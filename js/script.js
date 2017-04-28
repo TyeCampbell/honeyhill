@@ -136,8 +136,8 @@ function sendForm() {
 		if (ajax.readyState == 4 && ajax.status == 200) {
 			if (ajax.responseText == "success") {
 				$('#mymodal').modal({show: true});
-				$("#statusheader").html("Message Status");		
-				$("#status").html("Thank you for your message, " + $firstName.val() + "! We will respond shortly.");						
+				$("#statusheader").html("Thank you!");		
+				$("#status").html("Thanks for reaching out to us, " + $firstName.val() + "! We will respond to your request as soon as possible.");						
 				$firstName.val("");
 				$email.val("");
 				$message.val("");
