@@ -5,28 +5,31 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
  
-    <meta name="description" content="">
-    <meta name="author" content="">
-	<link rel="apple-touch-icon-precomposed" sizes="57x57" href="favicons/apple-touch-icon-57x57.png" />
-	<link rel="apple-touch-icon-precomposed" sizes="114x114" href="favicons/apple-touch-icon-114x114.png" />
-	<link rel="apple-touch-icon-precomposed" sizes="72x72" href="favicons/apple-touch-icon-72x72.png" />
-	<link rel="apple-touch-icon-precomposed" sizes="144x144" href="favicons/apple-touch-icon-144x144.png" />
-	<link rel="apple-touch-icon-precomposed" sizes="60x60" href="favicons/apple-touch-icon-60x60.png" />
-	<link rel="apple-touch-icon-precomposed" sizes="120x120" href="favicons/apple-touch-icon-120x120.png" />
-	<link rel="apple-touch-icon-precomposed" sizes="76x76" href="favicons/apple-touch-icon-76x76.png" />
-	<link rel="apple-touch-icon-precomposed" sizes="152x152" href="favicons/apple-touch-icon-152x152.png" />
-	<link rel="icon" type="image/png" href="favicon-196x196.png" sizes="196x196" />
-	<link rel="icon" type="image/png" href="favicon-96x96.png" sizes="96x96" />
-	<link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32" />
-	<link rel="icon" type="image/png" href="favicon-16x16.png" sizes="16x16" />
-	<link rel="icon" type="image/png" href="favicon-128.png" sizes="128x128" />
-	<meta name="application-name" content="&nbsp;"/>
-	<meta name="msapplication-TileColor" content="#FFFFFF" />
-	<meta name="msapplication-TileImage" content="mstile-144x144.png" />
-	<meta name="msapplication-square70x70logo" content="mstile-70x70.png" />
-	<meta name="msapplication-square150x150logo" content="mstile-150x150.png" />
-	<meta name="msapplication-wide310x150logo" content="mstile-310x150.png" />
-	<meta name="msapplication-square310x310logo" content="mstile-310x310.png" />
+    <meta name="description" content="Our rustic and charming venue is the perfect fit for weddings or events. Come find us conveniently located in Osceola, Iowa.">
+    <meta name="keywords" content="Owners: Rob Taylor &amp; Dr. Christi Taylor">
+    <meta name="copyright" content="Honey Hill&trade; is a regitered trademark.">
+    <meta name="author" content="wedding, weddings, event, events, center, facility, venue, place, hall, honey, hill, receptions, party, parties, reunions, conference, conferences, corporate, rustic, charming, country, Des Moines, Iowa, Osceola">
+    <meta name="robots" content="index, follow">
+  	<link rel="apple-touch-icon-precomposed" sizes="57x57" href="favicons/apple-touch-icon-57x57.png" />
+  	<link rel="apple-touch-icon-precomposed" sizes="114x114" href="favicons/apple-touch-icon-114x114.png" />
+  	<link rel="apple-touch-icon-precomposed" sizes="72x72" href="favicons/apple-touch-icon-72x72.png" />
+  	<link rel="apple-touch-icon-precomposed" sizes="144x144" href="favicons/apple-touch-icon-144x144.png" />
+  	<link rel="apple-touch-icon-precomposed" sizes="60x60" href="favicons/apple-touch-icon-60x60.png" />
+  	<link rel="apple-touch-icon-precomposed" sizes="120x120" href="favicons/apple-touch-icon-120x120.png" />
+  	<link rel="apple-touch-icon-precomposed" sizes="76x76" href="favicons/apple-touch-icon-76x76.png" />
+  	<link rel="apple-touch-icon-precomposed" sizes="152x152" href="favicons/apple-touch-icon-152x152.png" />
+  	<link rel="icon" type="image/png" href="favicon-196x196.png" sizes="196x196" />
+  	<link rel="icon" type="image/png" href="favicon-96x96.png" sizes="96x96" />
+  	<link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32" />
+  	<link rel="icon" type="image/png" href="favicon-16x16.png" sizes="16x16" />
+  	<link rel="icon" type="image/png" href="favicon-128.png" sizes="128x128" />
+  	<meta name="application-name" content="&nbsp;"/>
+  	<meta name="msapplication-TileColor" content="#FFFFFF" />
+  	<meta name="msapplication-TileImage" content="mstile-144x144.png" />
+  	<meta name="msapplication-square70x70logo" content="mstile-70x70.png" />
+  	<meta name="msapplication-square150x150logo" content="mstile-150x150.png" />
+  	<meta name="msapplication-wide310x150logo" content="mstile-310x150.png" />
+  	<meta name="msapplication-square310x310logo" content="mstile-310x310.png" />
 
 
     <title>Welcome to Honey Hill Events - Osceola, Iowa</title>
@@ -85,13 +88,10 @@
     <div id="mainCarousel" class="carousel slide carousel-fade" data-ride="carousel">
       <div class="carousel-inner" role="listbox">
         <div class="item img1 active">
-          <!-- <img class="first-slide" src="images/carousel1.png" alt="Building Picture"> -->
         </div>
         <div class="item img2">
-          <!-- <img class="second-slide" src="images/carousel2.png" alt="Building Picture"> -->
         </div>
         <div class="item img3">
-          <!-- <img class="third-slide" src="images/carousel3.png" alt="Building Picture"> -->
         </div>
       </div>
     </div><!-- /.carousel -->
@@ -103,15 +103,15 @@
     <div class="container marketing">
 
       <div class="row">
-        <div class="col-lg-4">
+        <div class="col-sm-4">
           <img class="img-responsive center-block" src="images/marketing-wedding.png" alt="Weddings">
-        </div><!-- /.col-lg-4 -->
-        <div class="col-lg-4">
+        </div><!-- /.col-sm-4 -->
+        <div class="col-sm-4">
           <img class="img-responsive center-block" src="images/marketing-events.png" alt="Events">
-        </div><!-- /.col-lg-4 -->
-        <div class="col-lg-4">
+        </div><!-- /.col-sm-4 -->
+        <div class="col-sm-4">
           <img class="img-responsive center-block" src="images/marketing-celebrations.png" alt="Weddings">
-        </div><!-- /.col-lg-4 -->
+        </div><!-- /.col-sm-4 -->
       </div><!-- /.row -->
 
 
@@ -122,7 +122,7 @@
       <div id="about" class="row featurette">
         <div class="col-md-7">
           <h2 class="featurette-heading">Rustic &amp; Charming </h2>
-          <p class="lead">Available year-round with over 4,000 useable square feet. Featuring a large woden bar with a side office space for preparations or bridal party changing.</p>
+          <p class="lead">Available year-round with over 4,000 useable square feet. Featuring a large wooden bar with a side office space for preparations or bridal party changing.</p>
         </div>
         <div class="col-md-5">
           <img class="featurette-image img-responsive center-block" src="images/featurettes-rustic.png" alt="rustic venue image" width="500" height="500">
@@ -149,7 +149,6 @@
           <p class="lead">Just 45 minutes south of the Des Moines metro area, right off of Interstate 35. Come visit us! <address class="text-center address">Honey Hill Events Center<br> 1400 West Clay Street <br> Osceola, IA 50213</address></p>
         </div>
         <div class="col-md-5">
-          <!-- <img class="featurette-image img-responsive center-block" src="images/500x500-map.png" alt="Google Map" width="500" height="500"> -->
 	         <div id="map" class="center-block"></div>
         </div>
       </div>
@@ -221,7 +220,7 @@
         <div class="modal-content">
           <div class="modal-header">
             <button type="button" class="close" data-dismiss="modal">&times;</button>
-            <h4 class="modal-title" id="statusheader"></h4>
+            <h4 class="modal-title"><span id="statusheader"></span></h4>
           </div>      
           <div class="modal-body">
             <span id="status"></span>       
@@ -235,6 +234,7 @@
       <footer>
         <p class="pull-right"><a href="#">Back to top</a></p>
       	<p>Owners: <br>Rob Taylor &amp; Dr. Christi Taylor <br> &copy; <span id="year"></span> Honey Hill, Inc.</p>
+        <!-- Website designed and developed by Tye Campbell -->
         <p class="text-center tye"><a href="http://www.tyecampbell.com">Site by Tye</a></p>
       </footer>
 
